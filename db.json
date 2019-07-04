@@ -1,0 +1,16 @@
+{
+"users":[
+{
+"id" : 1,
+"firstname" : "Sanul",
+"lastname" : "Raskar",
+"email" : "sanul.raskar@viit.ac.in",
+"mobile" : "7350411246",
+"password" : "Sanul@1234",
+"gender" : "male",
+"bike" : [{"manufacturer" : "Hero","modal":"CD-Deluxe","color":"black","VehicleLicense":"MH12ER1059","DrivingLicense":"TY1254824544"}] ,
+"savedPlaces":[{"name":"Home","Lat":"","Lng":""},{"name":"Work","Lat":"","Lng":""}]
+},
+]
+
+}
