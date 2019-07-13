@@ -7,20 +7,61 @@
       "email": "sanul.raskar@viit.ac.in",
       "mobile": "7350411246",
       "password": "Sanul@1234",
+      "gender": "male"
+    },
+    {
+      "id": 2,
+      "firstname": "Test",
+      "lastname": "User",
+      "email": "test@gmail.com",
+      "mobile": "9350411247",
+      "password": "Sanul@1234",
+      "gender": "male"
+    },
+    {
+      "firstname": "abc",
+      "lastname": "xyz",
+      "email": "test@gmail.com",
+      "mobile": "9380718247",
+      "password": "Sanul@1234",
       "gender": "male",
-      "bike": [
-        {
-          "manufacturer": "Hero",
-          "modal": "CD-Deluxe",
-          "color": "black",
-          "VehicleLicense": "MH12ER1059",
-          "DrivingLicense": "TY1254824544"
-        }
-      ],
-      "savedPlaces": [
-        { "name": "Home", "Lat": "", "Lng": "" },
-        { "name": "Work", "Lat": "", "Lng": "" }
-      ]
+      "id": 3
+    }
+  ],
+  "vehicle": [
+    {
+      "id": 1,
+      "manufacturer": "Hero",
+      "modal": "CD-Deluxe",
+      "color": "black",
+      "VehicleLicense": "MH12ER1059",
+      "DrivingLicense": "TY1254824544",
+      "userID": 1
+    },
+    {
+      "manufacturer": "Hero",
+      "modal": "Pleasure",
+      "color": "black",
+      "VehicleLicense": "MH11EE1057",
+      "DrivingLicense": "AB1254724544",
+      "id": 2,
+      "userID": 1
+    }
+  ],
+  "savedPlaces": [
+    {
+      "id": 1,
+      "name": "Home",
+      "Lat": "18.633779399999998",
+      "Lng": "73.8017861",
+      "userID": 1
+    },
+    {
+      "id": 2,
+      "name": "Work",
+      "Lat": "18.8265886",
+      "Lng": "74.3725252",
+      "userID": 1
     }
   ]
 }
